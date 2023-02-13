@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@200;400&family=Roboto+Condensed:ital,wght@0,700;1,700&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anek Devanagari', sans-serif;
+}
+.container{
+    padding: 1rem;
+    width: 350px;
+    height: 200px;
+    background-color: rgb(62, 68, 75);
+}
+.header{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 1.2rem;
+}
+.container img{
+    width: 100px;
+    padding-right:1rem ;
+    
+}
+.container h3{
+ font-size: 1rem;
+ color:yellow ;
+}
+.container .icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+}
+.container .icons a{
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+.container .icons i{
+    color: white;
+    font-size: 2rem;
+    --webkit-transition: color;
+    transition: 1s color;
+}
+.container .icons i:hover{
+    color: yellow;
+}
